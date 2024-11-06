@@ -1,5 +1,4 @@
-package testeAnimal;
-
+package aula07Exercicios.testeAnimal;
 
 public class Main {
     public static void main(String[] args) {
