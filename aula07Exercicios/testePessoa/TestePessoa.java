@@ -12,7 +12,7 @@ public class TestePessoa {
         String Endereco = JOptionPane.showInputDialog("Endereco");
         String telefone = JOptionPane.showInputDialog("Telefone");
 
-        testePessoa.Pessoa pessoa = new testePessoa.Pessoa(nome, idade, Endereco, telefone);
+        Pessoa pessoa = new Pessoa(nome, idade, Endereco, telefone);
 
         if (!pessoa.isMaiorDeIdade()){
             JOptionPane.showMessageDialog(null, "Você menor de idade");

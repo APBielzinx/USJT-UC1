@@ -1,4 +1,4 @@
-package testePessoa;
+package aula07Exercicios.testePessoa;
 
 public class Pessoa {
 
@@ -8,7 +8,7 @@ public class Pessoa {
     private String telefone;
 
     public boolean isMaiorDeIdade() {
-        return idade > 18;
+        return idade >= 18;
     }
 
     public boolean temTelefone() {
