@@ -1,8 +1,5 @@
 package aula09Exercicios.testeExemplo;
 
-import aula09RedeSocial.Amigo;
-import aula09RedeSocial.Rede;
-
 import javax.swing.*;
 
 public class Teste {
